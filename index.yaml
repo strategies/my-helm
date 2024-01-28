@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  my-store:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-28T13:44:54.073678-05:00"
+    dependencies:
+    - name: inventory-service
+      repository: ""
+      version: 1.16.0
+    - name: catalog-service
+      repository: ""
+      version: 1.16.0
+    - name: inventory-database
+      repository: ""
+      version: 1.16.0
+    - name: catalog-database
+      repository: ""
+      version: 1.16.0
+    - name: message-broker
+      repository: ""
+      version: 1.16.0
+    description: Helm chart for My Store application
+    digest: 8f466433d950711e738749f01fd21b26c7456faa53aae54433066f62a922588f
+    name: my-store
+    type: application
+    urls:
+    - https://github.com/strategies/my-helm.git/my-store-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-28T13:44:54.0706092-05:00"
